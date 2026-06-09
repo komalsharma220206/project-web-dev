@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .box1::after{
+         content:";"
+       }
+       ::selection{
+          background-color:magenta;
+       }
+       input::placeholder{
+        color: magenta;
+       }
+       .box1::first-letter{
+          color: blue;
+       }
+     </style>    
+</head>
+<body>
+    <div class="box">
+        <div class="box1">
+            int n
+        </div>
+        <div class="box1">
+            cout<<"enter the value of n:"
+        </div>
+        <div class="box1">
+            cin>>n
+        </div>
+    </div>
+    <div>
+        <form action="post">
+            <label for="name"></label>
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+        </form>
+    </div>
+</body>
+</html>

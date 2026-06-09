@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --color:black;
+            --seccolor:white;
+            --pad:15px;
+            --bor:2px;
+        }
+        *{
+            margin:0px;
+        }
+        .container{
+            background-color:var(--color);
+
+        }
+        ul li{
+            list-style: none;
+            padding:var(--pad);
+            color:var(--seccolor,blue);
+        }
+        ul{
+            display:flex;
+        }
+        .box{
+            background-color: aqua;
+            height:100px;
+            width:100px;
+            border:var(--bor) solid black;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <ul>
+            <li>home</li>
+            <li>about</li>
+            <li>contact</li>
+        </ul>
+    </div>
+    <div class="box">
+
+    </div>
+</body>
+</html>
