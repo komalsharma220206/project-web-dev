@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:rgb(216, 222, 233);
+        }
+        @media only screen and (max-width:500px){
+            body{
+                background-color: hotpink;
+            }
+        }
+        :root{
+            --pad:2px;
+            --solid:black;
+        }
+        .box{
+            height:400px;
+            width:400px;
+            border:2px solid black;
+            box-sizing: border-box;
+        }
+        .box1{
+            display: flex;
+        }
+        .s1{
+            height:100px;
+            width:100px;
+            border:var(--pad) solid var(--solid) ;
+            margin:40px;
+            box-shadow:5px 5px 5px  plum;
+            
+            box-sizing: border-box;
+            text-align:center;
+            padding: 30px 0px 0px 0px;
+            
+            
+        }
+        .box2{
+            display: flex;
+        }
+        .s2{
+            height:100px;
+            width:100px;
+            border:var(--pad) solid var(--solid) ;
+            margin:40px;
+            outline:4px solid plum;
+            outline-offset: 2px;
+        }
+        a:link{
+            color: blue;
+        }
+        a:hover{
+            color: deeppink;
+        }
+        ul li{
+            list-style-image:url(https://png.pngtree.com/png-vector/20230831/ourmid/pngtree-house-with-no-background-png-image_9197435.png);
+            list-style-position: inside;
+            height:250px;
+            width: 100px;
+            
+        }
+        .lorem{
+            height: 100px;
+            width: 1050px;
+            border:2px solid black;
+            white-space:nowrap;
+            overflow:auto;
+            font-weight: 700;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: larger;
+            text-transform: uppercase;
+            text-decoration: underline;
+            text-decoration-style: wavy;
+            text-decoration-color:salmon;
+            text-decoration-thickness: 4px;
+        }
+        ::selection{
+            color: royalblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+         <div class="box1">
+            <div class="s1">
+                <a href="https://www.youtube.com">YOUTUBE</a>
+            </div>
+            <div class="s1">
+                <a href="https://www.google.com">GOOGLE</a>
+            </div>
+         </div>
+         <div class="box2">
+            <div class="s2"></div>
+            <div class="s2"></div>
+         </div>
+    </div>
+    <ul>
+        <li></li>
+        <LI></LI>
+    </ul>
+    <br>
+    <br>
+    <br>
+    <div class="lorem">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat iure rerum fuga commodi cum! Eveniet quae qui vel consectetur ab perspiciatis quibusdam, doloremque nam eaque quisquam blanditiis neque accusantium maxime pariatur quod. Odio quas nihil laboriosam fugiat ab assumenda, vitae quam tenetur quibusdam minima ducimus nostrum reprehenderit error pariatur dolorem, corporis cupiditate! Omnis hic dolore blanditiis ducimus, earum molestias. Suscipit hic sint quod magni ullam debitis, fugit est ipsum, expedita dolorem voluptatum obcaecati officiis quis unde, facere tempora? Nesciunt est fugit modi architecto illo sint in velit, nostrum ullam ex natus. Mollitia eum labore non accusamus praesentium perspiciatis, nulla perferendis!
+    </div>
+</body>
+</html>
